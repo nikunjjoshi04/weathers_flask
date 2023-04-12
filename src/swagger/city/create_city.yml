@@ -1,0 +1,26 @@
+Create city
+---
+tags:
+  - Cities
+parameters:
+  - name: access_token
+    in: header
+    required: true
+    description: access token
+  - name: body
+    in: body
+    required: true
+    description: city payload
+    example: {
+        "city": "city1",
+        "country": "country1"
+     }
+responses:
+  400:
+    description: Invalid Request
+  401:
+    description: Not Authorised
+  409:
+    description: Conflict
+  201:
+    description: Success

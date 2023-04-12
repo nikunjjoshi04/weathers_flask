@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "required": [
+    "city",
+    "country"
+  ],
+  "properties": {
+    "city": {
+      "type": "string",
+      "$ref": "#/definitions/non-empty-string"
+    },
+    "country": {
+      "type": "string",
+      "$ref": "#/definitions/non-empty-string"
+    }
+  },
+  "anyOf": [
+    {
+      "required": [
+        "country"
+      ]
+    },
+    {
+      "required": [
+        "city"
+      ]
+    }
+  ],
+  "definitions": {
+    "non-empty-string": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 20
+    }
+  }
+}
+
+

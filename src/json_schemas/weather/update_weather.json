@@ -1,0 +1,54 @@
+{
+  "type": "object",
+  "required": [
+    "city_id",
+    "temperature",
+    "from_timestamp",
+    "to_timestamp"
+  ],
+  "properties": {
+    "city_id": {
+      "type": "integer"
+    },
+    "temperature": {
+      "type": "integer"
+    },
+    "from_timestamp": {
+      "type": "string",
+      "$ref": "#/definitions/non-empty-string"
+    },
+    "to_timestamp": {
+      "type": "string",
+      "$ref": "#/definitions/non-empty-string"
+    }
+  },
+  "anyOf": [
+    {
+      "required": [
+        "city_id"
+      ]
+    },
+    {
+      "required": [
+        "temperature"
+      ]
+    },
+    {
+      "required": [
+        "from_timestamp"
+      ]
+    },
+    {
+      "required": [
+        "to_timestamp"
+      ]
+    }
+  ],
+  "definitions": {
+    "non-empty-string": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 20
+    }
+  }
+}

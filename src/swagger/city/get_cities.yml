@@ -1,0 +1,9 @@
+Get cities
+---
+tags:
+  - Cities
+responses:
+  404:
+    description: Not Found
+  200:
+    description: Ok

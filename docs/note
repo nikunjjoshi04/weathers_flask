@@ -1,0 +1,120 @@
+starting and ending greeting
+self intro
+project intro
+weakness and strength
+
+Starting Greeting:
+    - Good morning, Mr. Johnson. It's a pleasure to meet you.
+    - Good afternoon, Ms. Johnson. It's a pleasure to be here.
+    - Good evening, Mr. Smith. It's great to meet you.
+
+Self Intro:
+    - Hi, my name is Nikunj Joshi and It's a pleasure to be here.
+    - I have a Masters's degree in Computer Science and have around 5+ years of experience in software development
+    - During that time, I've had the opportunity to work on a variety of projects, technologies, and tools,
+        and have a strong background in Python and its frameworks like (Flask, Django, and FastApi)
+        and also have basic knowledge about frontend frameworks like reactJS and vueJS.
+        I've familiar with version control systems like GitHub and GitLab and other development tools and services like
+        doker, redis, kafka and AWS and GCP cloud services
+    - I am excited about the opportunity to bring my expertise to the genome system and to work with a team of talented engineers.
+
+
+Project Intro:
+
+Blockchain Servers Platform:
+    Blockchain servers platform is cloud service provider for next generation of the internet protocols.
+    basically it sales servers/nodes specifically for different blockchains.
+    the project is divided into different small microservice and also we have implemented some third party tools and systems.
+
+    for selling, listing and pyment functionality we are using existing tird party system WHMCS which is built in php
+    for new portal backend is in flask and fastapi
+    frontend is built in reactJS.
+    and also using mysql, mongodb, and radis for data storage and temporary data storage.
+    for monitoring, restart, reboot, and update system, we developed a agent which is written in rust language,
+    and also used prometheus and grafana for visualized the realtime monitoring of nodes.
+    for procuring and reinstalling the node and os we used drone pipelines which are written in python, js, rust and shell scripting.
+
+    - My key role in this project is
+        Manage Backend Project, create REST api in Flask and FastApi.
+        triggering provisioning pipelines.
+        manage data in between microservices and third party tools.
+
+Shopping Scraper:
+    Shopping Scraper helps in extracting data from marketplaces such as Google Shopping, Amazon
+    and other online stores in specific European and other countries domain.
+    It scrapes product details from the product details page and helps to analyze the market for new prospects and clients.
+
+    The system identifies all relevant sellers, Descriptions, Specs, Brands, EAN(European article Number), Products Images, Product Links, Categories, Stock
+    Availability, Reviews/Ranking, prices, and many more details and update multiple times a day.
+    the system will automatically scrap the details about the products and track the realtime details.
+
+    the user can put tracker on particular product detail like
+    price, availability and stock on particular platform, or download data in .csv, .xlsx, and JASON.
+
+    the system is divided into different small microservice
+    the backend is developed in flask framework, the front-end is in reactJS
+    and also used different databases and storage for storing, updating and restoring the data.
+    like (MySQL, RethinkDB, Kafka, Google BigQuery, Google FireStore, celery, radis, S3 Bucket)
+
+    - My responsibility here was to develop the REST APIs using the Flask framework.
+        and at the same time working with selenium and beautifulsoup for scrap product information from different ecommerce platforms.
+        and normalize data, dump those normalize data in different databases and storage systems.
+
+Electo Analytics:
+    - Electo analytics is a unified platform to manage and simplify Public Affairs and Government Relations.
+        With the help of electo, businesses can monitor policies, Roles, votes, Engage Stakeholders, Manage Directories to
+        keep track of Legislative bills and Regulations.
+
+    - Electo Premium provides overall coverage of United States Congress and helps the Businesses by providing voting records of
+        representatives and senators, biographical & committee data from various sources,
+        and giving real-time updates on state, local, and federal proposals from the point of introduction to final bills and regulations.
+
+     The system backend is built in Django, Django REST-framework and frontend is in vueJS.
+     the scraping scripts are written in core python.
+     and we also have used cron jobs, django-rq and AWS services.
+
+    - My responsibility here was to develop the REST APIs using the Django REST-framework.
+        and at the same time working on scraping scripts for scrap the data about US congress.
+        and normalize data, dump those normalize data in different databases and storage systems.
+
+HR Management Portal:
+    - HR Management Portal A web based application, it is used to manage human resources for an organization.
+        An organization can manage leaves, overtime, employee reviews, employee salaries,
+        interviews, broadcast lists, user groups and permissions etc
+
+    - my key role in this project was to develop the system using the flask framework.
+        handling both backend and frontend in same Flask with jinja template.
+
+
+Weakness:
+    - Sometimes, I struggle with finding the balance between speed and quality when working on a project. In the past,
+        I've spent too much time optimizing code or exploring alternative solutions,
+        which can cause delays in the project timeline.
+
+Strength:
+    - I have a strong technical background in python programming language,
+        which allows me to quickly understand complex problems and develop effective solutions.
+    - I have good analytical and problem-solving skills,
+        which enable me to approach challenges in a logical and systematic way.
+
+Ending Greeting:
+    - Thank you for your time and consideration today.
+    - It was great to meet with you.
+    - have a nice (day/evening), good bay.
+
+
+Python and it’s Frameworks Django, FastApi, Flask
+Django Rest framework
+React js, Vue js
+Docker
+AWS, GCP
+Ajax, JavaScript and JQuery
+Scraping Tool such as Selenium & BeautifulSoup
+MySQL, SQLITE, PostgreSQL
+MongoDB, RethinkDB, Google BigQuery, Google FireStore
+S3 Bucket, AWS Lambda, AWS Cognito, AWS CloudWatch
+HTML, CSS, Bootstrap, Responsive Web Design
+SEO techniques
+Version Control GitHub, GitLab & Bitbucket
+Agile Scrum
+PyCharm, Postman, Pandas, Django-Oscar, httpx, Django Wagtail, NumPy, Django-CMS, Matplotlib, Django-rq, Celery, Django-Filter, Sk-Learn, Beautiful-Soup, Selenium, Requests, PyMongo, Pytest

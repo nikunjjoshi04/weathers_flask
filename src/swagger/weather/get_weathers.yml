@@ -1,0 +1,29 @@
+Get Weathers
+---
+tags:
+  - Weathers
+parameters:
+  - name: city_id
+    in: path
+    type: integer
+    required: true
+    description: The id of city
+  - name: from_timestamp
+    in: query
+    type: string
+    required: true
+    description: Indicates start timestamp
+    example: "2023-03-25 06:44:44"
+  - name: to_timestamp
+    in: query
+    type: string
+    required: true
+    description: Indicates end timestamp
+    example: "2023-03-27 06:44:44"
+responses:
+  400:
+    description: Invalid Request
+  404:
+    description: Not Found
+  200:
+    description: Success
